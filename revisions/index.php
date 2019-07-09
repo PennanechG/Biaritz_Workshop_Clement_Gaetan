@@ -1,12 +1,12 @@
 <?php
-
+// Variable
 echo "Hello fellowship";
 echo '<br>';
 
 $ringBearer = "Frodon";
 echo $ringBearer;
 echo '<br>';
-$ringMaker = "Sauron";
+$ringMaker = strtoupper("Sauron");
 echo $ringMaker;
 echo '<br>';
 
@@ -22,5 +22,11 @@ echo $ringCompagnyMembers;
 echo '<br>';
 $middleHearth ="";
 echo $middleHearth;
+
+// Strings
+
+$txtringBearer = "Le porteur est $ringBearer";
+
+echo "$txtringBearer et $ringMaker le recherche"
 
 ?>
